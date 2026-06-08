@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Payment | NIYATI EVENTS</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+NIYATI <span>EVENTS</span>
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="vendors.html">Vendors</a></li>
+<li><a href="venues.html">Venues</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<div class="nav-buttons">
+<a href="login.html" class="btn-login">Login</a>
+<a href="register.html" class="btn-register">Register</a>
+</div>
+
+</nav>
+
+<!-- PAYMENT SECTION -->
+
+<section class="payment-section">
+
+<div class="payment-container">
+
+<!-- LEFT SIDE -->
+
+<div class="payment-left">
+
+<h1>Complete Your Payment</h1>
+
+<p>
+Secure payment powered by NIYATI EVENTS
+</p>
+
+<div class="payment-methods">
+
+<label class="payment-option">
+
+<input
+type="radio"
+name="payment"
+checked>
+
+<i class="fas fa-qrcode"></i>
+
+UPI Payment
+
+</label>
+
+<label class="payment-option">
+
+<input
+type="radio"
+name="payment">
+
+<i class="fas fa-credit-card"></i>
+
+Credit / Debit Card
+
+</label>
+
+<label class="payment-option">
+
+<input
+type="radio"
+name="payment">
+
+<i class="fas fa-building-columns"></i>
+
+Net Banking
+
+</label>
+
+<label class="payment-option">
+
+<input
+type="radio"
+name="payment">
+
+<i class="fas fa-wallet"></i>
+
+Wallet
+
+</label>
+
+</div>
+
+<!-- UPI -->
+
+<div class="upi-box">
+
+<input
+type="text"
+placeholder="Enter UPI ID">
+
+</div>
+
+<!-- CARD DETAILS -->
+
+<div class="card-box">
+
+<input
+type="text"
+placeholder="Card Holder Name">
+
+<input
+type="text"
+placeholder="Card Number">
+
+<div class="card-row">
+
+<input
+type="text"
+placeholder="MM/YY">
+
+<input
+type="text"
+placeholder="CVV">
+
+</div>
+
+</div>
+
+<!-- COUPON -->
+
+<div class="coupon-box">
+
+<input
+type="text"
+placeholder="Coupon Code">
+
+<button>
+Apply
+</button>
+
+</div>
+
+<button
+id="payNowBtn"
+class="pay-now-btn">
+
+Pay Now
+
+</button>
+
+</div>
+
+<!-- RIGHT SIDE -->
+
+<div class="payment-right">
+
+<div class="order-summary">
+
+<h2>Order Summary</h2>
+
+<div class="summary-row">
+
+<span>Vendor</span>
+
+<strong>Royal Wedding Studio</strong>
+
+</div>
+
+<div class="summary-row">
+
+<span>Package</span>
+
+<strong>Premium Package</strong>
+
+</div>
+
+<div class="summary-row">
+
+<span>Booking Amount</span>
+
+<strong>₹50,000</strong>
+
+</div>
+
+<div class="summary-row">
+
+<span>Platform Fee</span>
+
+<strong>₹999</strong>
+
+</div>
+
+<div class="summary-row total">
+
+<span>Total</span>
+
+<strong>₹50,999</strong>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- =========================
+PAYMENT BENEFITS
+========================= -->
+
+<section class="why-section">
+
+<div class="section-title">
+
+<h2>Why Pay With NIYATI EVENTS?</h2>
+
+<p>
+100% secure and trusted payment experience.
+</p>
+
+</div>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<i class="fas fa-lock"></i>
+
+<h3>Secure Payments</h3>
+
+<p>
+Industry standard encryption keeps your transactions safe.
+</p>
+
+</div>
+
+<div class="why-card">
+
+<i class="fas fa-shield-halved"></i>
+
+<h3>Verified Vendors</h3>
+
+<p>
+All vendors are verified before accepting bookings.
+</p>
+
+</div>
+
+<div class="why-card">
+
+<i class="fas fa-headset"></i>
+
+<h3>Customer Support</h3>
+
+<p>
+Dedicated support team available whenever you need help.
+</p>
+
+</div>
+
+<div class="why-card">
+
+<i class="fas fa-money-check-dollar"></i>
+
+<h3>Transparent Pricing</h3>
+
+<p>
+No hidden charges. What you see is what you pay.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+PAYMENT SUCCESS BOX
+========================= -->
+
+<section class="reviews-section">
+
+<div class="section-title">
+
+<h2>After Successful Payment</h2>
+
+<p>
+Your booking confirmation will include:
+</p>
+
+</div>
+
+<div class="reviews-grid">
+
+<div class="review-card">
+
+<h3>Booking Confirmation</h3>
+
+<p>
+Instant booking confirmation with event details.
+</p>
+
+</div>
+
+<div class="review-card">
+
+<h3>Vendor Contact</h3>
+
+<p>
+Direct vendor contact details will be shared.
+</p>
+
+</div>
+
+<div class="review-card">
+
+<h3>Dashboard Access</h3>
+
+<p>
+Track your booking status from your dashboard.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+CTA SECTION
+========================= -->
+
+<section class="cta-section">
+
+<div class="cta-content">
+
+<h2>
+Ready To Complete Your Booking?
+</h2>
+
+<p>
+Proceed securely and reserve your event date today.
+</p>
+
+<div class="cta-buttons">
+
+<a href="dashboard.html" class="cta-btn">
+Go To Dashboard
+</a>
+
+<a href="vendors.html" class="cta-btn-outline">
+Browse More Vendors
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer class="footer">
+
+<div class="footer-grid">
+
+<div class="footer-col">
+
+<h3>NIYATI EVENTS</h3>
+
+<p>
+India's trusted marketplace for weddings,
+birthdays, corporate events and concerts.
+</p>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Quick Links</h4>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="vendors.html">Vendors</a></li>
+<li><a href="venues.html">Venues</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Services</h4>
+
+<ul>
+<li><a href="vendors.html">Wedding Planning</a></li>
+<li><a href="vendors.html">Photography</a></li>
+<li><a href="vendors.html">Decorations</a></li>
+<li><a href="vendors.html">Corporate Events</a></li>
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Contact</h4>
+
+<p>info@niyatievents.com</p>
+<p>+91 9876543210</p>
+<p>India</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© 2026 NIYATI EVENTS. All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+
+<!-- =========================
+BACK TO TOP
+========================= -->
+
+<button id="topBtn">
+↑
+</button>
+
+<script src="assets/js/script.js"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+const payBtn =
+document.getElementById("payNowBtn");
+
+if(payBtn){
+
+payBtn.addEventListener("click",()=>{
+
+alert(
+"🎉 Payment Successful! Your booking has been confirmed."
+);
+
+window.location.href =
+"dashboard.html";
+
+});
+
+}
+
+});
+
+</script>
+
+</body>
+</html>

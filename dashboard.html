@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>User Dashboard | NIYATI EVENTS</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<div class="sidebar-logo">
+
+<h2>NIYATI EVENTS</h2>
+
+</div>
+
+<ul>
+
+<li>
+<a href="dashboard.html">
+<i class="fas fa-home"></i>
+Dashboard
+</a>
+</li>
+
+<li>
+<a href="booking.html">
+<i class="fas fa-calendar-check"></i>
+My Bookings
+</a>
+</li>
+
+<li>
+<a href="wishlist.html">
+<i class="fas fa-heart"></i>
+Wishlist
+</a>
+</li>
+
+<li>
+<a href="chat.html">
+<i class="fas fa-comments"></i>
+Messages
+</a>
+</li>
+
+<li>
+<a href="profile.html">
+<i class="fas fa-user"></i>
+Profile
+</a>
+</li>
+
+<li>
+<a href="login.html">
+<i class="fas fa-right-from-bracket"></i>
+Logout
+</a>
+</li>
+
+</ul>
+
+</div>
+
+<!-- MAIN CONTENT -->
+
+<div class="dashboard-main">
+
+<div class="dashboard-header">
+
+<h1>
+Welcome Back, Aayush 👋
+</h1>
+
+<p>
+Manage your bookings and event activities.
+</p>
+
+</div>
+
+<!-- STATS -->
+
+<div class="stats-grid">
+
+<div class="stat-card">
+
+<i class="fas fa-calendar-check"></i>
+
+<h2>12</h2>
+
+<p>Total Bookings</p>
+
+</div>
+
+<div class="stat-card">
+
+<i class="fas fa-heart"></i>
+
+<h2>8</h2>
+
+<p>Wishlist Items</p>
+
+</div>
+
+<div class="stat-card">
+
+<i class="fas fa-comments"></i>
+
+<h2>24</h2>
+
+<p>Messages</p>
+
+</div>
+
+<div class="stat-card">
+
+<i class="fas fa-star"></i>
+
+<h2>5</h2>
+
+<p>Reviews Given</p>
+
+</div>
+
+</div>
+
+<!-- RECENT BOOKINGS -->
+
+<div class="dashboard-section">
+
+<h2>
+Recent Bookings
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Vendor</th>
+
+<th>Date</th>
+
+<th>Status</th>
+
+<th>Amount</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Royal Wedding Studio</td>
+
+<td>12 Aug 2026</td>
+
+<td>Confirmed</td>
+
+<td>₹50,000</td>
+
+</tr>
+
+<tr>
+
+<td>Elite Decorators</td>
+
+<td>20 Sep 2026</td>
+
+<td>Pending</td>
+
+<td>₹35,000</td>
+
+</tr>
+
+<tr>
+
+<td>Dream Events</td>
+
+<td>01 Oct 2026</td>
+
+<td>Confirmed</td>
+
+<td>₹80,000</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+<!-- =========================
+WISHLIST PREVIEW
+========================= -->
+
+<div class="dashboard-section">
+
+<h2>
+Wishlist Vendors
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Vendor</th>
+<th>Category</th>
+<th>Price</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Royal Wedding Studio</td>
+<td>Photography</td>
+<td>₹50,000</td>
+</tr>
+
+<tr>
+<td>Elite Decorators</td>
+<td>Decoration</td>
+<td>₹35,000</td>
+</tr>
+
+<tr>
+<td>Dream Events</td>
+<td>Event Management</td>
+<td>₹80,000</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<!-- =========================
+RECENT MESSAGES
+========================= -->
+
+<div class="dashboard-section">
+
+<h2>
+Recent Messages
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Vendor</th>
+<th>Message</th>
+<th>Time</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Royal Wedding Studio</td>
+<td>Booking Confirmed</td>
+<td>2 Hours Ago</td>
+</tr>
+
+<tr>
+<td>Elite Decorators</td>
+<td>Quotation Sent</td>
+<td>Yesterday</td>
+</tr>
+
+<tr>
+<td>Dream Events</td>
+<td>Event Discussion</td>
+<td>2 Days Ago</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<!-- =========================
+UPCOMING EVENTS
+========================= -->
+
+<div class="dashboard-section">
+
+<h2>
+Upcoming Events
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Event</th>
+<th>Date</th>
+<th>Location</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Wedding Ceremony</td>
+<td>12 Aug 2026</td>
+<td>Mumbai</td>
+</tr>
+
+<tr>
+<td>Corporate Meetup</td>
+<td>20 Sep 2026</td>
+<td>Pune</td>
+</tr>
+
+<tr>
+<td>Birthday Celebration</td>
+<td>01 Oct 2026</td>
+<td>Delhi</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

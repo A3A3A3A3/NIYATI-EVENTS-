@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Profile | NIYATI EVENTS</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+NIYATI <span>EVENTS</span>
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="vendors.html">Vendors</a></li>
+<li><a href="venues.html">Venues</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<div class="nav-buttons">
+<a href="dashboard.html" class="btn-login">Dashboard</a>
+<a href="login.html" class="btn-register">Logout</a>
+</div>
+
+</nav>
+
+<!-- PROFILE HERO -->
+
+<section class="vendor-hero">
+
+<div class="vendor-overlay">
+
+<h1>My Profile</h1>
+
+<p>
+Manage your account information and event activities.
+</p>
+
+</div>
+
+</section>
+
+<!-- PROFILE SECTION -->
+
+<section class="profile-section">
+
+<div class="profile-container">
+
+<!-- LEFT -->
+
+<div class="profile-sidebar">
+
+<div class="profile-image-box">
+
+<img
+src="https://randomuser.me/api/portraits/men/32.jpg"
+id="profilePreview">
+
+<label class="upload-btn">
+
+<i class="fas fa-camera"></i>
+
+Upload Photo
+
+<input
+type="file"
+id="profileImage"
+hidden>
+
+</label>
+
+</div>
+
+<h2>Aayush Yadav</h2>
+
+<p>Premium Member</p>
+
+<div class="profile-menu">
+
+<a href="#">
+<i class="fas fa-user"></i>
+Personal Info
+</a>
+
+<a href="#">
+<i class="fas fa-lock"></i>
+Security
+</a>
+
+<a href="#">
+<i class="fas fa-calendar-check"></i>
+Bookings
+</a>
+
+<a href="#">
+<i class="fas fa-heart"></i>
+Wishlist
+</a>
+
+<a href="#">
+<i class="fas fa-comments"></i>
+Messages
+</a>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div class="profile-content">
+
+<h2>
+Personal Information
+</h2>
+
+<form id="profileForm">
+
+<div class="profile-grid">
+
+<div class="input-group">
+
+<label>Full Name</label>
+
+<input
+type="text"
+value="Aayush Yadav"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Email Address</label>
+
+<input
+type="email"
+value="aayush@gmail.com"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Mobile Number</label>
+
+<input
+type="tel"
+value="+91 9876543210"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>City</label>
+
+<input
+type="text"
+value="Pune"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Date Of Birth</label>
+
+<input
+type="date">
+
+</div>
+
+<div class="input-group">
+
+<label>Gender</label>
+
+<select>
+
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+
+</select>
+
+</div>
+
+</div>
+
+<button
+type="submit"
+class="register-btn">
+
+Save Changes
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ACCOUNT STATS -->
+
+<section class="stats-section">
+
+<div class="stats-container">
+
+<div class="stat-card">
+<h2>12</h2>
+<p>Total Bookings</p>
+</div>
+
+<div class="stat-card">
+<h2>8</h2>
+<p>Wishlist Items</p>
+</div>
+
+<div class="stat-card">
+<h2>24</h2>
+<p>Messages</p>
+</div>
+
+<div class="stat-card">
+<h2>5</h2>
+<p>Reviews</p>
+</div>
+
+</div>
+
+</section>
+<!-- =========================
+CHANGE PASSWORD
+========================= -->
+
+<section class="contact-vendor">
+
+<h2>
+Change Password
+</h2>
+
+<form id="passwordForm">
+
+<input
+type="password"
+placeholder="Current Password"
+required>
+
+<input
+type="password"
+placeholder="New Password"
+required>
+
+<input
+type="password"
+placeholder="Confirm New Password"
+required>
+
+<button type="submit">
+
+Update Password
+
+</button>
+
+</form>
+
+</section>
+
+<!-- =========================
+RECENT ACTIVITY
+========================= -->
+
+<section class="reviews-section">
+
+<div class="section-title">
+
+<h2>
+Recent Activity
+</h2>
+
+<p>
+Your latest account activities.
+</p>
+
+</div>
+
+<div class="reviews-grid">
+
+<div class="review-card">
+
+<h3>
+Booking Confirmed
+</h3>
+
+<p>
+Royal Wedding Studio booking confirmed successfully.
+</p>
+
+</div>
+
+<div class="review-card">
+
+<h3>
+Payment Completed
+</h3>
+
+<p>
+Payment of ₹50,999 completed successfully.
+</p>
+
+</div>
+
+<div class="review-card">
+
+<h3>
+Vendor Added
+</h3>
+
+<p>
+Elite Decorators added to your wishlist.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+BOOKING HISTORY
+========================= -->
+
+<section class="dashboard-section">
+
+<h2>
+Booking History
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Vendor</th>
+<th>Date</th>
+<th>Status</th>
+<th>Amount</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Royal Wedding Studio</td>
+<td>12 Aug 2026</td>
+<td>Confirmed</td>
+<td>₹50,000</td>
+</tr>
+
+<tr>
+<td>Elite Decorators</td>
+<td>20 Sep 2026</td>
+<td>Pending</td>
+<td>₹35,000</td>
+</tr>
+
+<tr>
+<td>Dream Events</td>
+<td>01 Oct 2026</td>
+<td>Confirmed</td>
+<td>₹80,000</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer class="footer">
+
+<div class="footer-grid">
+
+<div class="footer-col">
+
+<h3>NIYATI EVENTS</h3>
+
+<p>
+India's trusted marketplace for weddings,
+birthdays, corporate events and celebrations.
+</p>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Quick Links</h4>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="vendors.html">Vendors</a></li>
+<li><a href="venues.html">Venues</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Account</h4>
+
+<ul>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="wishlist.html">Wishlist</a></li>
+<li><a href="chat.html">Messages</a></li>
+<li><a href="profile.html">Profile</a></li>
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Contact</h4>
+
+<p>info@niyatievents.com</p>
+<p>+91 9876543210</p>
+<p>Mumbai, India</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© 2026 NIYATI EVENTS. All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+
+<button id="topBtn">
+↑
+</button>
+
+<script src="assets/js/script.js"></script>
+
+<script>
+
+// Profile Image Preview
+
+const profileImage =
+document.getElementById("profileImage");
+
+const profilePreview =
+document.getElementById("profilePreview");
+
+if(profileImage){
+
+profileImage.addEventListener("change",(e)=>{
+
+const file =
+e.target.files[0];
+
+if(file){
+
+profilePreview.src =
+URL.createObjectURL(file);
+
+}
+
+});
+
+}
+
+// Profile Save
+
+const profileForm =
+document.getElementById("profileForm");
+
+if(profileForm){
+
+profileForm.addEventListener("submit",(e)=>{
+
+e.preventDefault();
+
+alert(
+"✅ Profile Updated Successfully"
+);
+
+});
+
+}
+
+// Password Update
+
+const passwordForm =
+document.getElementById("passwordForm");
+
+if(passwordForm){
+
+passwordForm.addEventListener("submit",(e)=>{
+
+e.preventDefault();
+
+alert(
+"🔐 Password Updated Successfully"
+);
+
+});
+
+}
+
+</script>
+
+</body>
+</html>

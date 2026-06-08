@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Messages | NIYATI EVENTS</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="chat-container">
+
+<!-- LEFT SIDEBAR -->
+
+<div class="chat-sidebar">
+
+<div class="chat-search">
+
+<input
+type="text"
+placeholder="Search Vendor">
+
+</div>
+
+<div class="chat-user active">
+
+<img
+src="https://randomuser.me/api/portraits/men/32.jpg">
+
+<div>
+
+<h4>Royal Wedding Studio</h4>
+
+<span>Online</span>
+
+</div>
+
+</div>
+
+<div class="chat-user">
+
+<img
+src="https://randomuser.me/api/portraits/women/45.jpg">
+
+<div>
+
+<h4>Elite Decorators</h4>
+
+<span>Online</span>
+
+</div>
+
+</div>
+
+<div class="chat-user">
+
+<img
+src="https://randomuser.me/api/portraits/men/60.jpg">
+
+<div>
+
+<h4>Dream Events</h4>
+
+<span>Last Seen 10 min ago</span>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CHAT AREA -->
+
+<div class="chat-main">
+
+<div class="chat-header">
+
+<div class="chat-profile">
+
+<img
+src="https://randomuser.me/api/portraits/men/32.jpg">
+
+<div>
+
+<h3>Royal Wedding Studio</h3>
+
+<p>Online</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div
+class="chat-messages"
+id="chatMessages">
+
+<div class="message received">
+
+Hello 👋
+
+Thank you for contacting Royal Wedding Studio.
+
+</div>
+
+<div class="message received">
+
+How can we help you?
+
+</div>
+
+<div class="message sent">
+
+I want a quotation for wedding photography.
+
+</div>
+
+</div>
+
+<div class="chat-input-area">
+
+<button class="attach-btn">
+
+<i class="fas fa-paperclip"></i>
+
+</button>
+
+<input
+type="text"
+id="chatInput"
+placeholder="Type your message...">
+
+<button
+id="sendBtn"
+class="send-btn">
+
+<i class="fas fa-paper-plane"></i>
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="assets/js/script.js"></script>
+
+<script>
+
+const sendBtn =
+document.getElementById("sendBtn");
+
+const chatInput =
+document.getElementById("chatInput");
+
+const chatMessages =
+document.getElementById("chatMessages");
+
+sendBtn.addEventListener("click",()=>{
+
+const message =
+chatInput.value.trim();
+
+if(message==="") return;
+
+const msg =
+document.createElement("div");
+
+msg.classList.add(
+"message",
+"sent"
+);
+
+msg.innerText =
+message;
+
+chatMessages.appendChild(msg);
+
+chatInput.value="";
+
+chatMessages.scrollTop =
+chatMessages.scrollHeight;
+
+});
+
+chatInput.addEventListener(
+"keypress",
+(e)=>{
+
+if(e.key==="Enter"){
+
+sendBtn.click();
+
+}
+
+});
+
+</script>
+
+</body>
+
+</html>

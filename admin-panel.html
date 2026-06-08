@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Panel | NIYATI EVENTS</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<div class="sidebar-logo">
+
+<h2>Admin Panel</h2>
+
+</div>
+
+<ul>
+
+<li>
+<a href="admin-panel.html">
+<i class="fas fa-chart-pie"></i>
+Dashboard
+</a>
+</li>
+
+<li>
+<a href="vendors.html">
+<i class="fas fa-store"></i>
+Vendors
+</a>
+</li>
+
+<li>
+<a href="booking.html">
+<i class="fas fa-calendar-check"></i>
+Bookings
+</a>
+</li>
+
+<li>
+<a href="dashboard.html">
+<i class="fas fa-users"></i>
+Users
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+<i class="fas fa-headset"></i>
+Support
+</a>
+</li>
+
+<li>
+<a href="login.html">
+<i class="fas fa-right-from-bracket"></i>
+Logout
+</a>
+</li>
+
+</ul>
+
+</div>
+
+<!-- MAIN CONTENT -->
+
+<div class="dashboard-main">
+
+<div class="dashboard-header">
+
+<h1>
+Admin Dashboard
+</h1>
+
+<p>
+Manage vendors, users, bookings and platform activities.
+</p>
+
+</div>
+
+<!-- STATS -->
+
+<div class="vendor-stats">
+
+<div class="vendor-stat">
+
+<h2>2,580</h2>
+
+<p>Total Users</p>
+
+</div>
+
+<div class="vendor-stat">
+
+<h2>845</h2>
+
+<p>Total Vendors</p>
+
+</div>
+
+<div class="vendor-stat">
+
+<h2>1,920</h2>
+
+<p>Bookings</p>
+
+</div>
+
+<div class="vendor-stat">
+
+<h2>₹52L</h2>
+
+<p>Revenue</p>
+
+</div>
+
+</div>
+
+<!-- PENDING VENDORS -->
+
+<div class="dashboard-section">
+
+<h2>
+Pending Vendor Approvals
+</h2>
+
+<table class="admin-table">
+
+<thead>
+
+<tr>
+
+<th>Vendor</th>
+<th>Category</th>
+<th>City</th>
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Royal Events</td>
+<td>Wedding Planner</td>
+<td>Mumbai</td>
+
+<td>
+
+<button class="approve-btn">
+Approve
+</button>
+
+<button class="reject-btn">
+Reject
+</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>Elite Photography</td>
+<td>Photographer</td>
+<td>Pune</td>
+
+<td>
+
+<button class="approve-btn">
+Approve
+</button>
+
+<button class="reject-btn">
+Reject
+</button>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>Dream Decorators</td>
+<td>Decorator</td>
+<td>Delhi</td>
+
+<td>
+
+<button class="approve-btn">
+Approve
+</button>
+
+<button class="reject-btn">
+Reject
+</button>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<!-- RECENT BOOKINGS -->
+
+<div class="dashboard-section">
+
+<h2>
+Recent Bookings
+</h2>
+
+<table class="admin-table">
+
+<thead>
+
+<tr>
+
+<th>Customer</th>
+<th>Vendor</th>
+<th>Date</th>
+<th>Amount</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Rahul Sharma</td>
+<td>Royal Wedding Studio</td>
+<td>15 Aug 2026</td>
+<td>₹50,000</td>
+</tr>
+
+<tr>
+<td>Sneha Patel</td>
+<td>Elite Decorators</td>
+<td>28 Aug 2026</td>
+<td>₹35,000</td>
+</tr>
+
+<tr>
+<td>Amit Verma</td>
+<td>Dream Events</td>
+<td>05 Sep 2026</td>
+<td>₹80,000</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+<!-- =========================
+USER MANAGEMENT
+========================= -->
+
+<div class="dashboard-section">
+
+<h2>
+User Management
+</h2>
+
+<table class="admin-table">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+<th>Email</th>
+<th>Account Type</th>
+<th>Status</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Rahul Sharma</td>
+<td>rahul@gmail.com</td>
+<td>User</td>
+<td>Active</td>
+</tr>
+
+<tr>
+<td>Sneha Patel</td>
+<td>sneha@gmail.com</td>
+<td>Vendor</td>
+<td>Active</td>
+</tr>
+
+<tr>
+<td>Amit Verma</td>
+<td>amit@gmail.com</td>
+<td>User</td>
+<td>Active</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<!-- =========================
+REVENUE REPORT
+========================= -->
+
+<div class="dashboard-section">
+
+<h2>
+Monthly Revenue Report
+</h2>
+
+<table class="admin-table">
+
+<thead>
+
+<tr>
+
+<th>Month</th>
+<th>Bookings</th>
+<th>Revenue</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>June 2026</td>
+<td>320</td>
+<td>₹12,50,000</td>
+</tr>
+
+<tr>
+<td>July 2026</td>
+<td>410</td>
+<td>₹18,20,000</td>
+</tr>
+
+<tr>
+<td>August 2026</td>
+<td>520</td>
+<td>₹21,30,000</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<!-- =========================
+QUICK ACTIONS
+========================= -->
+
+<div class="dashboard-section">
+
+<h2>
+Quick Actions
+</h2>
+
+<div class="cta-buttons">
+
+<a href="add-vendor.html" class="cta-btn">
+Add Vendor
+</a>
+
+<a href="vendors.html" class="cta-btn-outline">
+Manage Vendors
+</a>
+
+<a href="contact.html" class="cta-btn">
+Support Tickets
+</a>
+
+</div>
+
+</div>
+
+<!-- =========================
+SYSTEM STATUS
+========================= -->
+
+<div class="dashboard-section">
+
+<h2>
+System Status
+</h2>
+
+<table class="admin-table">
+
+<tbody>
+
+<tr>
+<td>Server Status</td>
+<td>🟢 Online</td>
+</tr>
+
+<tr>
+<td>Payment Gateway</td>
+<td>🟢 Operational</td>
+</tr>
+
+<tr>
+<td>Email Service</td>
+<td>🟢 Active</td>
+</tr>
+
+<tr>
+<td>Database</td>
+<td>🟢 Connected</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="assets/js/script.js"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+document
+.querySelectorAll(".approve-btn")
+.forEach(btn=>{
+
+btn.addEventListener("click",()=>{
+
+alert("✅ Vendor Approved Successfully");
+
+});
+
+});
+
+document
+.querySelectorAll(".reject-btn")
+.forEach(btn=>{
+
+btn.addEventListener("click",()=>{
+
+alert("❌ Vendor Rejected");
+
+});
+
+});
+
+});
+
+</script>
+
+</body>
+</html>

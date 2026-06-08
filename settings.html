@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Settings | NIYATI EVENTS</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+NIYATI <span>EVENTS</span>
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="vendors.html">Vendors</a></li>
+<li><a href="venues.html">Venues</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="nav-buttons">
+
+<a href="dashboard.html" class="btn-login">
+Dashboard
+</a>
+
+<a href="profile.html" class="btn-register">
+Profile
+</a>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="vendor-hero">
+
+<div class="vendor-overlay">
+
+<h1>
+Account Settings
+</h1>
+
+<p>
+Manage your account preferences and privacy settings.
+</p>
+
+</div>
+
+</section>
+
+<!-- SETTINGS -->
+
+<section class="profile-section">
+
+<div class="profile-container">
+
+<div class="profile-content">
+
+<h2>
+General Settings
+</h2>
+
+<form id="settingsForm">
+
+<div class="profile-grid">
+
+<div class="input-group">
+
+<label>Display Name</label>
+
+<input
+type="text"
+value="Aayush Yadav">
+
+</div>
+
+<div class="input-group">
+
+<label>Email Address</label>
+
+<input
+type="email"
+value="aayush@gmail.com">
+
+</div>
+
+<div class="input-group">
+
+<label>Phone Number</label>
+
+<input
+type="tel"
+value="+91 9876543210">
+
+</div>
+
+<div class="input-group">
+
+<label>Language</label>
+
+<select>
+
+<option>English</option>
+<option>Hindi</option>
+
+</select>
+
+</div>
+
+</div>
+
+<button
+type="submit"
+class="register-btn">
+
+Save Settings
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SECURITY SETTINGS -->
+
+<section class="dashboard-section">
+
+<h2>
+Security Settings
+</h2>
+
+<div class="reviews-grid">
+
+<div class="review-card">
+
+<h3>
+Password Security
+</h3>
+
+<p>
+Last changed 15 days ago.
+</p>
+
+<button class="login-btn">
+
+Change Password
+
+</button>
+
+</div>
+
+<div class="review-card">
+
+<h3>
+Two Factor Authentication
+</h3>
+
+<p>
+Add extra protection to your account.
+</p>
+
+<button class="login-btn">
+
+Enable 2FA
+
+</button>
+
+</div>
+
+<div class="review-card">
+
+<h3>
+Login Activity
+</h3>
+
+<p>
+Monitor recent logins and devices.
+</p>
+
+<button class="login-btn">
+
+View Activity
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PREFERENCES -->
+
+<section class="why-section">
+
+<div class="section-title">
+
+<h2>
+Preferences
+</h2>
+
+<p>
+Customize your experience.
+</p>
+
+</div>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<i class="fas fa-bell"></i>
+
+<h3>
+Notifications
+</h3>
+
+<p>
+Receive booking and payment updates.
+</p>
+
+</div>
+
+<div class="why-card">
+
+<i class="fas fa-envelope"></i>
+
+<h3>
+Email Alerts
+</h3>
+
+<p>
+Get important account alerts.
+</p>
+
+</div>
+
+<div class="why-card">
+
+<i class="fas fa-moon"></i>
+
+<h3>
+Dark Mode
+</h3>
+
+<p>
+Switch between light and dark theme.
+</p>
+
+</div>
+
+<div class="why-card">
+
+<i class="fas fa-shield-halved"></i>
+
+<h3>
+Privacy
+</h3>
+
+<p>
+Control visibility of your profile.
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- =========================
+NOTIFICATION SETTINGS
+========================= -->
+
+<section class="contact-vendor">
+
+<h2>
+Notification Preferences
+</h2>
+
+<form>
+
+<label>
+<input type="checkbox" checked>
+Booking Notifications
+</label>
+
+<br><br>
+
+<label>
+<input type="checkbox" checked>
+Payment Notifications
+</label>
+
+<br><br>
+
+<label>
+<input type="checkbox" checked>
+Vendor Messages
+</label>
+
+<br><br>
+
+<label>
+<input type="checkbox">
+Marketing Emails
+</label>
+
+<br><br>
+
+<button type="submit">
+Save Preferences
+</button>
+
+</form>
+
+</section>
+
+<!-- =========================
+PRIVACY SETTINGS
+========================= -->
+
+<section class="dashboard-section">
+
+<h2>
+Privacy Controls
+</h2>
+
+<table>
+
+<tr>
+<td>Profile Visibility</td>
+<td>Public</td>
+</tr>
+
+<tr>
+<td>Email Visibility</td>
+<td>Private</td>
+</tr>
+
+<tr>
+<td>Phone Number</td>
+<td>Private</td>
+</tr>
+
+<tr>
+<td>Search Engine Indexing</td>
+<td>Enabled</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- =========================
+DELETE ACCOUNT
+========================= -->
+
+<section class="cta-section">
+
+<div class="cta-content">
+
+<h2>
+Danger Zone
+</h2>
+
+<p>
+Deleting your account will permanently remove all your data.
+</p>
+
+<div class="cta-buttons">
+
+<button
+id="deleteAccountBtn"
+class="cta-btn">
+
+Delete Account
+
+</button>
+
+<a
+href="profile.html"
+class="cta-btn-outline">
+
+Cancel
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer class="footer">
+
+<div class="footer-grid">
+
+<div class="footer-col">
+
+<h3>NIYATI EVENTS</h3>
+
+<p>
+India's trusted marketplace for weddings,
+birthdays, corporate events and celebrations.
+</p>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Quick Links</h4>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="vendors.html">Vendors</a></li>
+<li><a href="venues.html">Venues</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Account</h4>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="booking-history.html">Bookings</a></li>
+<li><a href="notifications.html">Notifications</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-col">
+
+<h4>Contact</h4>
+
+<p>info@niyatievents.com</p>
+<p>+91 9876543210</p>
+<p>Mumbai, India</p>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© 2026 NIYATI EVENTS. All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+
+<button id="topBtn">
+↑
+</button>
+
+<script src="assets/js/script.js"></script>
+
+<script>
+
+// Save Settings
+
+const settingsForm =
+document.getElementById("settingsForm");
+
+if(settingsForm){
+
+settingsForm.addEventListener("submit",(e)=>{
+
+e.preventDefault();
+
+alert(
+"✅ Settings Saved Successfully"
+);
+
+});
+
+}
+
+// Delete Account Demo
+
+const deleteBtn =
+document.getElementById("deleteAccountBtn");
+
+if(deleteBtn){
+
+deleteBtn.addEventListener("click",()=>{
+
+const confirmDelete =
+confirm(
+"Are you sure you want to delete your account?"
+);
+
+if(confirmDelete){
+
+alert(
+"⚠️ Account Deleted Successfully"
+);
+
+window.location.href =
+"index.html";
+
+}
+
+});
+
+}
+
+</script>
+
+</body>
+</html>
